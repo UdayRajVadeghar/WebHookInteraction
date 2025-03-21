@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Success!");
+  res.send("Success test1!");
 });
 
 app.listen(PORT, "0.0.0.0", () => {
