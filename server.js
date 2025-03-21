@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("hello from express and this is success and lets goo");
+  res.send("Success!");
 });
 
 app.listen(PORT, "0.0.0.0", () => {
